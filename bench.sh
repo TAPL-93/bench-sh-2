@@ -148,7 +148,7 @@ iotest () {
 	echo "I/O (1st run)	: $io" | tee -a $HOME/bench.log
 	echo "I/O (2nd run)	: $io2" | tee -a $HOME/bench.log
 	echo "I/O (3rd run)	: $io3" | tee -a $HOME/bench.log
-	echo "Average I/O	: $ioavg MB/s" | tee -a $HOME/bench.log
+	echo "Average I/O	: $ioavg GB/s" | tee -a $HOME/bench.log
 	echo "" | tee -a $HOME/bench.log
 }
 gbench () {
